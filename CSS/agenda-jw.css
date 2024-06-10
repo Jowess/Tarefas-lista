@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap'); 
+
+
+
+* { 
+
+    margin: 0px;
+    padding: 5px 10px;
+    
+}
+
+
+body {
+
+    background:linear-gradient(135deg,rgb(47, 220, 185),rgb(64, 164, 204));
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+
+.Titulo {
+
+    text-align: center;
+    
+}
+
+#idPesquisas {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+
+   
+
+}
+
+input[type="text"],
+input[type="submit"],
+
+input[type="data"]  {
+
+  border: 0;
+  border-radius: 111px;
+  background-color:rgb(252, 252, 252);
+   padding:  20px 35px;
+   flex-grow: 1;
+
+}
+
+input[type="submit"] {
+
+    color: black;
+    background-color: gold;
+    
+    flex-grow: 0;
+    
+
+}
+ #idAgenda{
+    
+   
+    justify-content: center;
+    padding: 25px 15px;
+   
+ }
+
+.Tabela table{
+    
+    width: 100%;
+   
+    text-align: center;
+    
+
+    
+
+}
+#idAgenda tr {
+
+box-shadow: 0px 5px rgba(0, 0,0, 0.125);
+
+
+}
+
+.btnExcluir {
+
+ border: 0;
+ border-radius: 15%;
+ border-bottom:0% ;
+ color: red;
+
+
+}
+
+.btnEditar{
+
+    color: rgb(16, 50, 144);
+background-color: rgb(241, 248, 247);
+border-radius:15% ;
+border-bottom: 0%;
+border: 0;
+width: 20%;
+}
+
+.Tabela {
+
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
